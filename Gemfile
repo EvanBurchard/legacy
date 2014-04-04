@@ -32,7 +32,7 @@ gem 'thin'
 gem 'unicorn'
 gem 'passenger'
 gem 'puma'
-gem 'trinidad'
+# gem 'trinidad'
 gem 'skinny'
 gem 'hoof' # this installs loggability, which takes a long time
 gem 'mongrel2'

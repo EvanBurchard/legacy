@@ -1,2 +1,2 @@
-class Home < ActiveRecord::Base
+class Home < Agent
 end

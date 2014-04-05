@@ -77,12 +77,14 @@ GEM
       trollop (~> 2.0)
       yajl-ruby (~> 1.0)
     multi_json (1.9.2)
+    mysql2 (0.3.15)
     parslet (1.5.0)
       blankslate (~> 2.0)
     passenger (4.0.40)
       daemon_controller (>= 1.2.0)
       rack
       rake (>= 0.8.1)
+    pg (0.17.1)
     polyglot (0.3.4)
     puma (2.8.1)
       rack (>= 1.1, < 2.0)
@@ -170,7 +172,9 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   mongrel2
+  mysql2
   passenger
+  pg
   puma
   rails (= 4.0.2)
   rake

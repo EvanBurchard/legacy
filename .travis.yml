@@ -1,9 +1,19 @@
 language: ruby
 rvm:
   - 2.1.0
+  - 2.1.1
   - jruby-18mode
   - jruby-19mode
   - rbx
   - ruby-head
   - jruby-head
   - ree
+matrix:
+  allow_failures:
+   - rvm: 2.1.0
+   - rvm: jruby-18mode
+   - rvm: jruby-19mode
+   - rvm: rbx
+   - rvm: ruby-head
+   - rvm: jruby-head
+   - rvm: ree

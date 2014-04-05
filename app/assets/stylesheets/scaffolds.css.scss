@@ -67,3 +67,8 @@ div {
     list-style: square;
   }
 }
+
+// import the stylus output
+// you must rename the stylus output file to _helpers.scss for this to work
+
+@import "helpers";

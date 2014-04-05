@@ -171,6 +171,7 @@ DEPENDENCIES
   passenger
   puma
   rails (= 4.0.2)
+  rake
   sass-rails (~> 4.0.0)
   sdoc
   skinny

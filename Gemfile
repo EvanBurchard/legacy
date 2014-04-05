@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', github: 'rails/rails'
 
 # We might change our mind and change the DB.
 gem 'sqlite3'
@@ -9,15 +9,15 @@ gem 'pg'
 gem 'mysql2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', github: 'rails/sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', github: 'lautis/uglifier'
 
 gem 'rake'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', github: 'rails/coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -34,8 +34,8 @@ gem 'jbuilder', '~> 1.2'
 # the webservers we might want at some point or could have wanted to use in the past
 gem 'thin'
 gem 'unicorn'
-gem 'passenger'
-gem 'puma'
+gem 'passenger', github: 'phusion/passenger'
+gem 'puma', github: 'puma/puma'
 # gem 'trinidad'
 gem 'skinny'
 gem 'hoof' # this installs loggability, which takes a long time

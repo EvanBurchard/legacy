@@ -1,0 +1,64 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "lgcs".* FROM "lgcs"
+  Rendered homes/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 75ms (Views: 57.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-04 20:49:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.2ms)[0m  SELECT "lgcs".* FROM "lgcs"
+  Rendered homes/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 84ms (Views: 59.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/homes.css?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700

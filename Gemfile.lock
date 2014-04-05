@@ -42,6 +42,7 @@ GEM
     eventmachine (1.0.3)
     eventmachine_httpserver (0.2.1)
     execjs (2.0.2)
+    four (0.0.1)
     hike (1.2.3)
     hoof (0.0.7)
       daemons
@@ -164,6 +165,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  four
   hoof
   jbuilder (~> 1.2)
   jquery-rails

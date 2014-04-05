@@ -63,7 +63,7 @@ gem 'yarn'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc' #, require: false (probaby dont need this)
 end
 
 # Use ActiveModel has_secure_password

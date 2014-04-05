@@ -20,29 +20,34 @@
 // not sure if this code will do anything, but the goofy unprofessional comments will be fun!
 
 // better make it a global!
-foo = {
-  title: 'lots of fun',
-  name: 'lot fun, much glory',
+
+(function() {
+  'use strit';
   
-}
-
-function a (b,c,d,e) {
-  if (e != b){
-    return d;
-  } else if (new Date()){
-    // remember to always use == in javascript
-    if (typeof(c) == 'array')) {
-      f = []
-      for(i=0; i < b; i++) {
-        f[i] += c % d;
-      }
-      return f;
-    } else{
-      return d + c - b;
-    }
-  } else {
-    return b;
+  foo = {
+    title: 'lots of fun',
+    name: 'lot fun, much glory',
+    
   }
-}
-
-a(foo['title'],'var',4, null);
+  
+  function a (b,c,d,e) {
+    if (e != b){
+      return d;
+    } else if (new Date()){
+      // remember to always use == in javascript
+      if (typeof(c) == 'array')) {
+        f = []
+        for(i=0; i < b; i++) {
+          f[i] += c % d;
+        }
+        return f;
+      } else{
+        return d + c - b;
+      }
+    } else {
+      return b;
+    }
+  }
+  
+  a(foo['title'],'var',4, null);
+)});

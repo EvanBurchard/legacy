@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/EvanBurchard/legacy.svg?branch=master)](https://travis-ci.org/EvanBurchard/legacy)
-== README
+
+# README
 
 The intention of this app is to collect common practices of web development.  Common practices does not mean best practices. Anything you can think of to make this app harder to work with is fair game.
 

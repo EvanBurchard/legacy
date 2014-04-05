@@ -62,3 +62,77 @@ Started GET "/assets/homes.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-04 20:49:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-05 12:27:36 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.5ms)[0m  SELECT "lgcs".* FROM "lgcs"
+  Rendered homes/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (File to import not found or unreadable: helpers.
+Load paths:
+  /Users/evanburchard/projects/legacy/app/assets/images
+  /Users/evanburchard/projects/legacy/app/assets/javascripts
+  /Users/evanburchard/projects/legacy/app/assets/stylesheets
+  /Users/evanburchard/projects/legacy/vendor/assets/javascripts
+  /Users/evanburchard/projects/legacy/vendor/assets/stylesheets
+  /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/turbolinks-2.2.1/lib/assets/javascripts
+  /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/evanburchard/projects/legacy/app/assets/stylesheets/scaffolds.css.scss:74)):
+    26:   <meta name="twitter:image" content="" />
+    27: 
+    28:   <title>Legacy</title>
+    29:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    30:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    31:   <%= csrf_meta_tags %>
+    32: </head>
+  app/assets/stylesheets/scaffolds.css.scss:74
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3697483071167398811_70326587449720'
+
+
+  Rendered /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-05 12:28:30 -0700
+Processing by HomesController#index as HTML
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT "lgcs".* FROM "lgcs"[0m
+  Rendered homes/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (File to import not found or unreadable: helpers.
+Load paths:
+  /Users/evanburchard/projects/legacy/app/assets/images
+  /Users/evanburchard/projects/legacy/app/assets/javascripts
+  /Users/evanburchard/projects/legacy/app/assets/stylesheets
+  /Users/evanburchard/projects/legacy/vendor/assets/javascripts
+  /Users/evanburchard/projects/legacy/vendor/assets/stylesheets
+  /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/turbolinks-2.2.1/lib/assets/javascripts
+  /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/jquery-rails-3.1.0/vendor/assets/javascripts
+  /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in /Users/evanburchard/projects/legacy/app/assets/stylesheets/scaffolds.css.scss:74)):
+    26:   <meta name="twitter:image" content="" />
+    27: 
+    28:   <title>Legacy</title>
+    29:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    30:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    31:   <%= csrf_meta_tags %>
+    32: </head>
+  app/assets/stylesheets/scaffolds.css.scss:74
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___3697483071167398811_70326587449720'
+
+
+  Rendered /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/evanburchard/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-05 12:29:44 -0700
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "lgcs".* FROM "lgcs"
+  Rendered homes/index.html.erb within layouts/homes (0.6ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)

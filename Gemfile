@@ -1,14 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-
-group :production do
-  gem 'rails', github: 'rails/rails'
-end
-
-group :development, :test do 
-  gem 'rails'
-end
+gem 'rails', github: 'rails/rails'
 
 # We might change our mind and change the DB.
 gem 'sqlite3'

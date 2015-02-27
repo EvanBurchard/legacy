@@ -26,3 +26,4 @@ What?  Why?
 * You can use this as a sandbox for whatever you want.  Feel like trying out a new front-end/testing/package managing/etc. framework? Just toss it in and watch what it can break.
 * If you've never worked at a company with legacy code, this is a good chance to understand why best practices are best, and what the alternative can be like.
 * If you have worked at a company with legacy code, this might find some nostalgia.
+*Added a comment. 3rd time's a charm. 

@@ -1,0 +1,10 @@
+processes:
+  api:
+    script: bin/api
+    ports: [80]
+  router:
+    script: bin/router
+    ports: [80]
+auxiliary:
+  _store:
+    type: etcd

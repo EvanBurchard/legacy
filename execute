@@ -1,0 +1,21 @@
+#!/bin/bash
+
+export HOME=/app
+
+if test -d "$HOME"; then
+  if test -d "$HOME/.apparatuses"; then
+    for apparatus in $HOME/.apparatuses/*; do
+      pushd $apparatus && source ./start ; popd
+    done
+    unset apparatus
+  fi
+
+  for file in $HOME/.profile.d/*; do
+    source $file
+  done
+
+  hash -r
+  cd $HOME
+fi
+
+exec $*

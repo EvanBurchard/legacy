@@ -1,0 +1,16 @@
+{
+  "name": "Legacy",
+  "description": "Deploy Legacy",
+  "website": "https://github.com/EvanBurchard/legacy",
+  "repository": "https://github.com/EvanBurchard/legacy",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  },
+  "env": {
+    "RAILS_ENV": "production",
+    "RACK_ENV": "production",
+    "RAILS_SERVE_STATIC_FILES": "true"
+  },
+  "addons": ["heroku-postgresql"]
+}

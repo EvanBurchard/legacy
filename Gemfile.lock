@@ -100,16 +100,9 @@ GEM
     daemons (1.1.9)
     erubis (2.7.0)
     eventmachine (1.0.3)
-    eventmachine_httpserver (0.2.1)
     execjs (2.0.2)
     four (0.0.1)
     hike (1.2.3)
-    hoof (0.0.7)
-      daemons
-      eventmachine
-      eventmachine_httpserver
-      thor
-      unicorn
     i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -201,7 +194,6 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails!
   four
-  hoof
   jbuilder (~> 1.2)
   jquery-rails
   mongrel2

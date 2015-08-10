@@ -1,3 +1,8 @@
+#We can't use hoof right now. Maybe we can work it out later.
+#Here is the change incase we need it.
+#-gem 'hoof' # this installs loggability, which takes a long time
+#+#gem 'hoof' # this installs loggability, which takes a long time
+
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -38,7 +43,8 @@ gem 'passenger', github: 'phusion/passenger'
 gem 'puma', github: 'puma/puma'
 # gem 'trinidad'
 gem 'skinny'
-gem 'hoof' # this installs loggability, which takes a long time
+#gem 'hoof' # this installs loggability, which takes a long time
+
 gem 'mongrel2'
 gem 'yarn'
 # gem 'pow'

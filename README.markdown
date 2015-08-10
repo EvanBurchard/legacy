@@ -1,6 +1,11 @@
 [![Build Status](https://travis-ci.org/EvanBurchard/legacy.svg?branch=master)](https://travis-ci.org/EvanBurchard/legacy)
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+# Legacy community portals
+* [wiki](http://legacyapp.wikia.com/wiki/Legacyapp_Wikia)
+* [Little War Game clan "Legacy"](http://littlwargame.com)
+* [Live demo instance](http://legacyapp.herokuapp.com)
+
 # README
 
 The intention of this app is to collect common practices of web development.  Common practices does not mean best practices. Anything you can think of to make this app harder to work with is fair game.

@@ -206,7 +206,6 @@ DEPENDENCIES
   sass-rails!
   sdoc
   skinny
-  sqlite3
   thin
   turbolinks
   uglifier!

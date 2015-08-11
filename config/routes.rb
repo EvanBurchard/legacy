@@ -1,4 +1,5 @@
 Legacy::Application.routes.draw do
+  get 'arcade' => 'home#arcade', as: :arcad
   resources :homes
 
   # The priority is based upon order of creation: first created -> highest priority.

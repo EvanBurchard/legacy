@@ -180,3 +180,81 @@ Processing by HomesController#index as HTML
   [1m[36mHome Load (0.1ms)[0m  [1mSELECT "lgcs".* FROM "lgcs"[0m
   Rendered homes/index.html.erb within layouts/homes (0.5ms)
 Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mFixture Delete (1.1ms)[0m  DELETE FROM "lgcs"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "lgcs" ("created_at", "updated_at", "id") VALUES ('2015-08-10 08:17:03', '2015-08-10 08:17:03', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "lgcs" ("created_at", "updated_at", "id") VALUES ('2015-08-10 08:17:03', '2015-08-10 08:17:03', 298486374)
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+--------------------------------------------
+HomesControllerTest: test_should_create_home
+--------------------------------------------
+  [1m[36mHome Load (0.3ms)[0m  [1mSELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lgcs"
+Processing by HomesController#create as HTML
+  Parameters: {"home"=>{}}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+---------------------------------------------
+HomesControllerTest: test_should_destroy_home
+---------------------------------------------
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "lgcs"
+Processing by HomesController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 0ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------
+HomesControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by HomesController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mHome Load (0.0ms)[0m  SELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1  [["id", 980190962]]
+  Rendered homes/_form.html.erb (18.6ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+------------------------------------------
+HomesControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by HomesController#index as HTML
+  [1m[35mHome Load (0.1ms)[0m  SELECT "lgcs".* FROM "lgcs"
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------
+HomesControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mHome Load (0.1ms)[0m  [1mSELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Processing by HomesController#new as HTML
+  Rendered homes/_form.html.erb (1.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------
+HomesControllerTest: test_should_show_home
+------------------------------------------
+  [1m[35mHome Load (0.1ms)[0m  SELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by HomesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mHome Load (0.0ms)[0m  [1mSELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1[0m  [["id", 980190962]]
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+HomesControllerTest: test_should_update_home
+--------------------------------------------
+  [1m[35mHome Load (0.1ms)[0m  SELECT  "lgcs".* FROM "lgcs"  WHERE "lgcs"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by HomesController#update as HTML
+  Parameters: {"home"=>{}, "id"=>"980190962"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 0ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m

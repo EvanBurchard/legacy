@@ -1,6 +1,10 @@
 class HomesController < ApplicationController
   before_action :set_home, only: [:show, :edit, :update, :destroy]
 
+  def arcade
+
+  end
+
   # GET /homes
   # GET /homes.json
   def index

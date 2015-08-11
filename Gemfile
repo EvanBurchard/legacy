@@ -9,7 +9,7 @@ source 'https://rubygems.org'
 gem 'rails', github: 'rails/rails'
 
 # We might change our mind and change the DB.
-gem 'sqlite3'
+#gem 'sqlite3' heroku issues
 gem 'pg'
 gem 'mysql2'
 

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml">
+      </toc>
+      <toc
+            file="testToc.xml"
+            primary="true">
+      </toc>
+   </extension>
+   
+   <extension
+      point="org.eclipse.help.contexts">
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.classify.svm.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.crawlers.supremecourt.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.classify.naivebayes.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.cluster.hierarchical.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.cluster.kmeans.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.crawlers.latin.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.crawlers.uscongress.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.topicmodel.lda.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.topicmodel.zlda.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.wordcount.cooccurrence.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.wordcount.standard.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.wordcount.weighted.ui">
+   </contexts>
+   <contexts
+         file="contextDefinitionFile.xml"
+         plugin="edu.usc.cssl.tacit.crawlers.reddit.ui">
+   </contexts>
+     <contexts
+         file="contextDefinitionFile.xml"
+          plugin="edu.usc.cssl.tacit.crawlers.twitter.ui">
+   </contexts>
+</extension> 
+
+</plugin>

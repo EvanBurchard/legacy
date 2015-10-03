@@ -1,5 +1,14 @@
 [![Build Status](https://travis-ci.org/EvanBurchard/legacy.svg?branch=master)](https://travis-ci.org/EvanBurchard/legacy)
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Coveralls](https://img.shields.io/coveralls/jekyll/jekyll.svg)]()
+[![SonarQube Tech Debt](https://img.shields.io/sonar/http/sonar.qatools.ru/ru.yandex.qatools.allure:allure-core/tech_debt.svg)]()
+[![Coverity Scan](https://img.shields.io/coverity/scan/3997.svg)]()
+[![PyPI](https://img.shields.io/pypi/dd/legacy.svg)]()
+[![Github Releases](https://img.shields.io/github/downloads/EvanBurchard/legacy/latest/total.svg)]()
+[![GitHub tag](https://img.shields.io/github/tag/EvanBurchard/legacy.svg)]()
+[![GitHub release](https://img.shields.io/github/release/EvanBurchard/legacy.svg)]()
+[![GitHub issues](https://img.shields.io/github/issues/EvanBurchard/legacy.svg)]()
+[![GitHub license](https://img.shields.io/github/license/EvanBurchard/legacy.svg)]()
 
 # Legacy community portals
 * [wiki](http://legacyapp.wikia.com/wiki/Legacyapp_Wikia)

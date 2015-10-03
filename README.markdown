@@ -7,7 +7,7 @@
 [![Github Releases](https://img.shields.io/github/downloads/EvanBurchard/legacy/latest/total.svg)]()
 [![GitHub tag](https://img.shields.io/github/tag/EvanBurchard/legacy.svg)]()
 [![GitHub release](https://img.shields.io/github/release/EvanBurchard/legacy.svg)]()
-[![GitHub issues](https://img.shields.io/github/issues/EvanBurachrd/legacy.svg)]()
+[![GitHub issues](https://img.shields.io/github/issues/EvanBurchard/legacy.svg)]()
 [![GitHub license](https://img.shields.io/github/license/EvanBurchard/legacy.svg)]()
 
 # Legacy community portals

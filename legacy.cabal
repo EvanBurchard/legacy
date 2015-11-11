@@ -1,5 +1,5 @@
-Name:                libgit
-Version:             0.3.1
+Name:                legacy 
+Version:             0.1.0
 Description:
 	The intention of this app is to collect common practices of web development. Common practices does not mean best practices. Anything you can think of to make this app harder to work with is fair game. 
 License:             MIT 

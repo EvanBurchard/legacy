@@ -1,0 +1,30 @@
+Name:                legacy 
+Version:             0.1.0
+Description:
+	The intention of this app is to collect common practices of web development. Common practices does not mean best practices. Anything you can think of to make this app harder to work with is fair game. 
+License:             MIT 
+License-file:        LICENSE
+Copyright:           Legacy Authors
+Author:              Legacy Authors
+Maintainer:          Legacy Authors 
+Synopsis:            Legacy 
+Category:            Development
+Stability:           experimental
+Build-Type:          Simple
+Homepage:            https://github.com/EvanBurchard/legacy 
+Cabal-Version:       >=1.6
+extra-doc-files:     README.md
+
+Library
+  Build-Depends:     base >= 3 && < 6, mtl, process
+  Exposed-modules:   Lib.Git
+  Exposed-modules:   Lib.Git.Type
+                     Lib.Git.Tree
+                     Lib.Git.Index
+                     Lib.Git.Lowlevel
+  ghc-options:       -Wall
+
+source-repository head
+  type: git
+  location: https://github.com/EvanBurchard/legacy 
+

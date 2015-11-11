@@ -1,0 +1,3 @@
+[submodule "gitdb"]
+	url = https://github.com/EvanBurchard/legacy
+	path = git/ext/gitdb

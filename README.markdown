@@ -10,12 +10,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/EvanBurchard/legacy.svg)]()
 [![GitHub license](https://img.shields.io/github/license/EvanBurchard/legacy.svg)]()
 
-# Legacy community portals
-* [wiki](http://legacyapp.wikia.com/wiki/Legacyapp_Wikia)
-* [Little War Game clan "Legacy"](http://littlwargame.com)
-* [Live demo instance](http://legacyapp.herokuapp.com)
-
-# README
+# Legacy
 
 The intention of this app is to collect common practices of web development.  Common practices does not mean best practices. Anything you can think of to make this app harder to work with is fair game.
 
@@ -42,3 +37,8 @@ What?  Why?
 * If you've never worked at a company with legacy code, this is a good chance to understand why best practices are best, and what the alternative can be like.
 * If you have worked at a company with legacy code, this might find some nostalgia.
 *Added a comment. 3rd time's a charm. 
+
+## Legacy community portals
+* [wiki](http://legacyapp.wikia.com/wiki/Legacyapp_Wikia)
+* [Little War Game clan "Legacy"](http://littlwargame.com)
+* [Live demo instance](http://legacyapp.herokuapp.com)

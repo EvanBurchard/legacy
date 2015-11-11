@@ -1,0 +1,63 @@
+# appveyor file
+# http://www.appveyor.com/docs/appveyor-yml
+
+# Try out "interactive-mode"
+os: Windows Server 2012 R2
+
+platform:
+  - x86
+  - x64
+
+# build version format
+version: "{build}"
+
+# Set a known clone folder
+clone_folder: c:\projects\nodegit
+
+# fix lineendings in Windows
+init:
+  - git config --global core.autocrlf input
+  - git config --global user.name "John Doe"
+  - git config --global user.email johndoe@example.com
+
+# what combinations to test
+environment:
+  JOBS: 4
+  BUILD_ONLY: true
+  GIT_SSH: c:\projects\nodegit\vendor\plink.exe
+  GYP_MSVS_VERSION: 2013
+  matrix:
+    # Node.js
+    - nodejs_version: "0.12"
+    # Node.js
+    - nodejs_version: "4.1"
+    - nodejs_version: "5.0"
+
+matrix:
+  fast_finish: true
+
+# Get the latest stable version of Node 0.STABLE.latest
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - ps: Start-Process c:\projects\nodegit\vendor\pageant.exe c:\projects\nodegit\vendor\private.ppk
+  - cmd: npm install -g node-gyp
+  - npm install
+
+test_script:
+  - node --version
+  - npm --version
+  - cmd: npm test
+
+on_success:
+  - IF %APPVEYOR_REPO_TAG%==true npm install -g node-pre-gyp
+  - IF %APPVEYOR_REPO_TAG%==true npm install -g aws-sdk
+  - IF %APPVEYOR_REPO_TAG%==true node lifecycleScripts\clean
+  - IF %APPVEYOR_REPO_TAG%==true node-pre-gyp package
+  - IF %APPVEYOR_REPO_TAG%==true node-pre-gyp publish
+
+build: off
+
+branches:
+  only:
+    - master
+    - v0.3
